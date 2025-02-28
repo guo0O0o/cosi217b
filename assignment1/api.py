@@ -4,7 +4,6 @@ from typing import Dict
 
 app = FastAPI()
 
-# In-memory storage for notes
 notes: Dict[str, str] = {}
 
 class Note(BaseModel):
